@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- meta SEO -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creacion de un CV (Curriculum Vitae) de una sola página utilizando únicamente HTML">
+    <meta name="keywords" content="HTML, Semantic HTML, Layout, SEO">
+    <meta name="author" content="@Junior Mendoza">
+    <meta name="date" content="2024-09-30">
+    <!-- meta Open Graph -->
+    <meta property="og:title" content="CV de una sola página">
+    <meta property="og:description" content="Creacion de un CV (Curriculum Vitae) de una sola página utilizando únicamente HTML">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:url" content="">
+    <meta property="og:image" content=""> -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/25/25185.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>CV HTML</title>
+    <style>
+        
+        *{
+            font-family: "Laila", system-ui;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        main h1, h3{
+            color: rgb(8, 182, 8);
+        }
+        main h3{
+            color: rgb(59, 127, 200);
+        }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <h3>Junior Frontend Developer</h3>
+        <div class="contact">
+            <address>
+                <p>Direccion: </p>
+                <p>Cel: </p>
+                <p>Correo: </p>
+            </address>
+        </div>
+    </header>
+    <main>
+        <section class="skills">
+            <h1>Skills</h1>
+            <p>HTML, CSS, JS, Web Design, etc .....</p>
+        </section>
+        <section class="educaction">
+            <h1>Education</h1>
+            <h3>School Name, Location - Degree</h3>
+            <p>Description: ...............</p>
+        </section>
+        <section class="experience">
+            <h1>Experience</h1>
+            <article class="article1">
+                <h3>Company Name, Location - Job title</h3>
+                <p>description: ...............</p>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>List pf skills used or gained at this company</p>
+            </article>
+            <article class="article2">
+                <h3>Company Name, Location - Job title</h3>
+                <p>description: ...............</p>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>List pf skills used or gained at this company</p>
+            </article>
+            <article class="article3">
+                <h3>Company Nmae, Location - Job title</h3>
+                <p>description: ...............</p>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>List pf skills used or gained at this company</p>
+            </article>
+        </section>
+        <section class="social">
+            <h1>Across the Internet</h1>
+            <a href="">LinkedIn</a>
+            <a href="">GitHub</a>
+            <a href="">Discord</a>
+            <a href="">Twitter</a>
+        </section>
+    </main>
+</body>
+</html>
